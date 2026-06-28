@@ -1,11 +1,27 @@
-div 
+.container
 {
-    background-color: white;
-    position: fixed;
-    inset: 0;
-    width: 50vw;
-    height: fit-content;
-    min-height: 20vw;
-    max-height: fit-content;
-    margin: auto;
+    display: grid;
+    height: 98vh;
+    grid-template-rows: auto 8fr auto;
+    grid-template-areas:
+    'header'
+    'content'
+    'footer';
+}
+
+.header
+{
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
+.content
+{
+    grid-area: content;
+}
+
+.footer
+{
+    grid-area: footer;
 }
