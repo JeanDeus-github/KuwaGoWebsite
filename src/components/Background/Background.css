@@ -9,19 +9,14 @@
     'footer';
 }
 
-.header
-{
-    position: sticky;
-    top: 0;
-    grid-area: header;
-}
-
 .content
 {
+    background-color: white;
     grid-area: content;
 }
 
 .footer
 {
+    background-color: red;
     grid-area: footer;
 }

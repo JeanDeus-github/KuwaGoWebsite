@@ -1,0 +1,26 @@
+.header
+{
+    position: sticky;
+    top: 0;
+    grid-area: header;
+}
+
+.content
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.branding
+{
+    background-color: green;
+}
+.branding img
+{
+    max-width: 480px;
+}
+
+.links
+{
+    background-color: yellow;
+}
