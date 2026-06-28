@@ -1,20 +1,23 @@
 .header
 {
+    
     position: sticky;
     top: 0;
     grid-area: header;
 }
 
-.content
+.header-content
 {
+    background-color: yellowgreen;
     display: grid;
     grid-template-columns: auto 1fr;
 }
 
 .branding
 {
-    background-color: green;
+    
 }
+
 .branding img
 {
     max-width: 480px;
@@ -22,5 +25,13 @@
 
 .links
 {
-    background-color: yellow;
+    background-color: aqua;
+    position: static;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
+.links a {
+    background-color: white;
+    padding: 15px 20px;
+  }
