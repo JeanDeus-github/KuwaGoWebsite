@@ -60,7 +60,7 @@
     color: white;
 }
 
-:has(.menu[aria-expanded="true"]) .toggle {
+:has(.menu[aria-expanded="true"]) .link {
   display: unset;
 }
 
@@ -92,9 +92,9 @@
     display: none;
   }
 
-  :has(.menu[aria-expanded="true"]) .toggle 
+  :has(.menu[aria-expanded="true"]) .link 
   {
     display: flex;
   }
-  
+
 }
