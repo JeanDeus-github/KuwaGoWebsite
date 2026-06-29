@@ -61,7 +61,7 @@
     color: white;
 }
 
-:has(.menu[aria-expanded="true"]) .link {
+:has(.menu[aria-expanded="true"]) .toggle {
   display: unset;
 }
 
@@ -94,7 +94,7 @@
     display: none;
   }
 
-  :has(.menu[aria-expanded="true"]) .link 
+  :has(.menu[aria-expanded="true"]) .toggle 
   {
     display: flex;
   }
