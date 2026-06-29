@@ -1,11 +1,12 @@
 .header
 {
-    
     position: sticky;
     top: 0;
     grid-area: header;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 .header-content
@@ -15,14 +16,9 @@
     grid-template-columns: auto 1fr;
 }
 
-.branding
-{
-    
-}
-
 .branding img
 {
-    max-width: 480px;
+    max-width: 360px;
 }
 
 .links
