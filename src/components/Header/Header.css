@@ -65,6 +65,28 @@
   display: unset;
 }
 
+.menu
+{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.burgir
+{
+      width: 35px;
+      height: 5px;
+      background: #AC3A5D;
+      display: block;
+      margin: 2px 0;
+      border-radius: 100px;
+      transition: all .2s linear;
+}
+
 @media screen and (min-width: 636px) 
 {
   .links
