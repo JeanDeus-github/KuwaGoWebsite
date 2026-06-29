@@ -27,11 +27,39 @@
 {
     background-color: aqua;
     position: static;
+    width: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: auto;
+    gap: 1em;
 }
-.links a {
-    background-color: white;
-    padding: 15px 20px;
-  }
+
+.links a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 3em;
+    width: 7.125rem;
+    font-size: 0.625em;
+    line-height: 2rem;
+    background-color: #AC3A5D;
+    text-decoration: none;
+}
+
+.links a:hover
+{
+    background-color: #6F2F5E;    
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.link-text
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    color: white;
+}
