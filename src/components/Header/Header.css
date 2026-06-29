@@ -76,6 +76,7 @@
     margin-left: auto;
     gap: 1em;
     grid-column: none;
+    margin-right: 1em;
   }
 
   .links a
