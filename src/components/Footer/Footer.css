@@ -3,3 +3,17 @@
     background-color: #6F2F5E;
     grid-area: footer;
 }
+
+.footer-content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.trademark
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+}
