@@ -1,7 +1,16 @@
+.header-background
+{
+  background-image: url(./../public/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+}
+
 .header
 {
-    position: sticky;
-    top: 0;
     grid-area: header;
     margin-left: 5vw;
     margin-right: 5vw;
