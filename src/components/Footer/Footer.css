@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-right: 10px;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 1vh;
@@ -32,6 +31,26 @@
     margin: 0;
 }
 
+.footer-branding
+{
+    max-width: 100%;
+}
+
+.social-media
+{
+    display: flex;
+    width: auto;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: right;
+    margin-right: 1.75rem;
+}
+.social-media-logo
+{
+    width: 1.25rem;
+    height: 1.25rem;;
+}
+
 p
 {
     color: white;
@@ -39,9 +58,4 @@ p
     font-size: 0.625em;
     font-weight: 300;
     height: fit-content;
-}
-
-img
-{
-    max-width: 100%;
 }
