@@ -15,9 +15,3 @@ body
     'content'
     'footer';
 }
-
-.content
-{
-    background-color: white;
-    grid-area: content;
-}
