@@ -1,14 +1,28 @@
 ---
 import './Footer.css';
+const socmeds = [
+                    {url: 'mailto:kuwagotheowl@gmail.com', logo: '/SocialMedia/email-svgrepo-com.svg'},
+                    {url: 'https://www.twitch.tv/kuwagotheowl', logo: '/SocialMedia/glitch_flat_white.svg'},
+                    {url: 'https://www.youtube.com/@kuwagotheowl', logo: '/SocialMedia/yt_icon_white_digital.png'},
+                    {url: 'https://bsky.app/profile/kuwagotheowl.bsky.social', logo: '/SocialMedia/bluesky_media_kit_logo_transparent_3.svg'},
+                    {url: 'https://x.com/KuwaGoTheOwl', logo: '/SocialMedia/logo.svg'},
+                    {url: 'https://www.instagram.com/kuwagotheowl/', logo: '/SocialMedia/Instagram_Glyph_White.svg'},
+                    {url: 'https://www.tiktok.com/@kuwagotheowl', logo: '/SocialMedia/TIKTOK_SIMPLIFIED_NOTE_WHITE.svg'},
+                    {url: 'https://ko-fi.com/kuwagotheowl', logo: '/SocialMedia/kofi_symbol.svg'},
+                    {url: 'https://throne.com/kuwagotheowl', logo: '/SocialMedia/Throne Icon - Single (Light).svg'}
+                ];
 ---
 
 <div class="footer">
     <div class="footer-content">
         <div class="trademark">
             <a href="#" class="branding-link">
-                <img src="/BrandingTransparent.png"/>
+                <img src="/BrandingTransparent.png" class="footer-branding"/>
             </a>
             <p class="copyright">Copyright © 2026 Kuwa Go Arts. All rights reserved.</p>
+        </div>
+        <div class="social-media">
+            { socmeds.map((socmed) => <a href={socmed.url}><img src={socmed.logo} class="social-media-logo"/></a> )}
         </div>
     </div>
 </div>
