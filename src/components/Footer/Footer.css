@@ -10,10 +10,38 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-right: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .trademark
 {
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: auto auto;
+}
+
+.branding-link
+{
+    width: 10.25rem;
+}
+
+.copyright
+{
+    margin: 0;
+}
+
+p
+{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 0.625em;
+    font-weight: 300;
+    height: fit-content;
+}
+
+img
+{
+    max-width: 100%;
 }
