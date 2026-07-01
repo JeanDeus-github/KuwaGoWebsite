@@ -15,9 +15,3 @@
     background-color: white;
     grid-area: content;
 }
-
-.footer
-{
-    background-color: red;
-    grid-area: footer;
-}
